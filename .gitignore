@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+/hand_gesture_detector/dataset
