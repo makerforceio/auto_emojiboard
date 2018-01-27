@@ -60,6 +60,9 @@ endif # FLAG_FULL_DBG
 endif # FLAG_DBG
 endif # FLAG_DO_PROFILE
 
+# Ambrose
+LOCAL_CFLAGS := -Wno-error=format-nonliteral
+
 LOCAL_MODULE := libjni_latinime_common_static
 LOCAL_MODULE_TAGS := optional
 
@@ -83,6 +86,9 @@ ifeq ($(FLAG_DBG), true)
 endif # FLAG_DBG
 endif # FLAG_DO_PROFILE
 
+# Ambrose
+LOCAL_CFLAGS := -Wno-error=format-nonliteral
+
 LOCAL_MODULE := libjni_latinime
 LOCAL_MODULE_TAGS := optional
 
@@ -96,8 +102,8 @@ include $(BUILD_SHARED_LIBRARY)
 include $(LOCAL_PATH)/CleanupNativeFileList.mk
 
 #################### Unit test on host environment
-include $(LOCAL_PATH)/HostUnitTests.mk
+#include $(LOCAL_PATH)/HostUnitTests.mk
 
 #################### Unit test on target environment
-include $(LOCAL_PATH)/TargetUnitTests.mk
+#include $(LOCAL_PATH)/TargetUnitTests.mk
 //LOCAL_CFLAGS += -Wall -Werror

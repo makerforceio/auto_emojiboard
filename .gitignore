@@ -158,7 +158,7 @@ app/.idea/libraries
 #*.jks
 
 # External native build folder generated in Android Studio 2.2 and later
-app/.externalNativeBuild
+app/.externalNativeBuild/
 
 # Google Services (e.g. APIs or Firebase)
 app/google-services.json
