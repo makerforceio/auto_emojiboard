@@ -3,14 +3,14 @@
 import numpy as np
 import cv2
 
-fist_cascade = cv2.CascadeClassifier('open_palm.xml')
+fist_cascade = cv2.CascadeClassifier('xml/closed_palm.xml')
 cap = cv2.VideoCapture(0)
 
 while(True):
     (ret, frame) = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    fists = fist_cascade.detectMultiScale(gray, 1.3, 5)
+    fists = fist_cascade.detectMultiScale(gray, 1.5, 5)
 
     for (x,y,w,h) in fists:
         cv2.rectangle(frame, (x,y), (x+w,y+h), (255,0,0), 2)
