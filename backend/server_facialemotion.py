@@ -18,6 +18,7 @@ class Cam():
 
   def start(self):
     self.thread.start()
+    self.thread_img.start()
     print("camera stream started")
 
   def run(self):
@@ -33,7 +34,7 @@ class Cam():
           img = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8),
                              cv2.IMREAD_COLOR)
           self.last_image = img
-          cv2.imshow('cam', img)
+          #cv2.imshow('cam', img)
           if cv2.waitKey(1) == 27:
             exit(0)
       except ThreadError:
@@ -42,11 +43,15 @@ class Cam():
   def process_image(self):
     while not self.thread_cancelled:
       try:
+        if self.last_image is None:
+            time.sleep(1)
+            continue
         img = self.last_image.copy()
         img = np.flip(img, axis=1)
         img = np.swapaxes(img, 0, 1)
         img_face = emo.extract_face(img)
         self.last_emotion = emo.extract_emotion(img_face)
+
         print(self.last_emotion)
       except ThreadError:
         self.thread_cancelled = True
@@ -62,6 +67,6 @@ class Cam():
 
 
 if __name__ == "__main__":
-  url = 'http://172.17.59.202:8080/video'
+  url = 'http://172.17.57.22:8080/video'
   cam = Cam(url)
   cam.start()
