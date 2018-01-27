@@ -1,0 +1,14 @@
+{
+    "name": "auto_emojiboard",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["bg.js"]
+    }
+}

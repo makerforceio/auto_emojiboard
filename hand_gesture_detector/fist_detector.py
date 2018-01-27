@@ -3,7 +3,7 @@
 import numpy as np
 import cv2
 
-fist_cascade = cv2.CascadeClassifier('xml/agest.xml')
+fist_cascade = cv2.CascadeClassifier('xml/handa.xml')
 cap = cv2.VideoCapture(0)
 
 while(True):
