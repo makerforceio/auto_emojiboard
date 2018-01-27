@@ -31,7 +31,6 @@ android {
     externalNativeBuild {
         ndkBuild {
             path '../LatinIME/native/jni/Android.mk'
-            buildStagingDirectory '../LatinIME/native/obj/'
         }
     }
 }
