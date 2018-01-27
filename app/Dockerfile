@@ -15,6 +15,8 @@ RUN apt-get -qq update \
       unzip \
       wget \
       zip \
+      make \
+      file \
   && apt-add-repository ppa:openjdk-r/ppa \
   && apt-get -qq update \
   && apt-get -qq install -y openjdk-8-jdk \
@@ -54,7 +56,8 @@ ENV SRC /src
 RUN mkdir $SRC
 WORKDIR $SRC
 
-RUN echo "sdk.dir=$ANDROID_HOME" > local.properties
+RUN echo "sdk.dir=$ANDROID_SDK_HOME" >> local.properties
+RUN echo "ndk.dir=$ANDROID_NDK_HOME" >> local.properties
 
 CMD ["./gradlew", "build"]
 
