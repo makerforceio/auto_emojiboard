@@ -15,8 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        coreApp="true"
-        package="com.android.inputmethod.latin">
+        package="io.makerforce.inputmethod.latin">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
 
@@ -39,17 +38,17 @@
          To use this, add the following line into calling application's AndroidManifest.xml
          <pre>
          {@code
-         <uses-permission android:name="com.android.inputmethod.latin.HIDE_SOFT_INPUT"/>
+         <uses-permission android:name="io.makerforce.inputmethod.latin.HIDE_SOFT_INPUT"/>
          }
          </pre>
          then call {@link android.content.Context#sendBroadcast(Intent)} as follows:
          <pre>
          {@code
-         sendBroadcast(new Intent("com.android.inputmethod.latin.HIDE_SOFT_INPUT")
-                 .setPackage("com.android.inputmethod.latin"));
+         sendBroadcast(new Intent("io.makerforce.inputmethod.latin.HIDE_SOFT_INPUT")
+                 .setPackage("io.makerforce.inputmethod.latin"));
          }
          </pre> -->
-    <permission android:name="com.android.inputmethod.latin.HIDE_SOFT_INPUT"
+    <permission android:name="io.makerforce.inputmethod.latin.HIDE_SOFT_INPUT"
                 android:protectionLevel="signature" />
 
     <application android:label="@string/english_ime_name"
@@ -79,7 +78,7 @@
                     android:resource="@xml/spellchecker" />
         </service>
 
-        <service android:name="com.android.inputmethod.dictionarypack.DictionaryService"
+        <service android:name="io.makerforce.inputmethod.dictionarypack.DictionaryService"
                 android:label="@string/dictionary_service_name">
         </service>
 
@@ -128,7 +127,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.inputmethod.dictionarypack.DictionarySettingsActivity"
+        <activity android:name="io.makerforce.inputmethod.dictionarypack.DictionarySettingsActivity"
                 android:theme="@style/platformSettingsTheme"
                 android:label="@string/dictionary_settings_title"
                 android:uiOptions="splitActionBarWhenNarrow">
@@ -137,7 +136,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.inputmethod.dictionarypack.DownloadOverMeteredDialog"
+        <activity android:name="io.makerforce.inputmethod.dictionarypack.DownloadOverMeteredDialog"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/dictionary_install_over_metered_network_prompt">
             <intent-filter>
@@ -161,16 +160,16 @@
 
         <receiver android:name="DictionaryPackInstallBroadcastReceiver" android:exported="false">
             <intent-filter>
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
+                <action android:name="io.makerforce.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.android.inputmethod.dictionarypack.EventHandler">
+        <receiver android:name="io.makerforce.inputmethod.dictionarypack.EventHandler">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
                 <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW" />
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.INIT_AND_UPDATE_NOW" />
+                <action android:name="io.makerforce.inputmethod.dictionarypack.aosp.UPDATE_NOW" />
+                <action android:name="io.makerforce.inputmethod.dictionarypack.aosp.INIT_AND_UPDATE_NOW" />
             </intent-filter>
         </receiver>
 
@@ -182,7 +181,7 @@
         </receiver>
 
         <!-- Content providers -->
-        <provider android:name="com.android.inputmethod.dictionarypack.DictionaryProvider"
+        <provider android:name="io.makerforce.inputmethod.dictionarypack.DictionaryProvider"
                 android:grantUriPermissions="true"
                 android:exported="false"
                 android:authorities="@string/authority"

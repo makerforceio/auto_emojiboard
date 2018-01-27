@@ -16,8 +16,6 @@
 
 package com.android.inputmethod.keyboard.layout;
 
-import static com.android.inputmethod.keyboard.layout.DevanagariLetterConstants.*;
-
 import com.android.inputmethod.keyboard.layout.Hindi.HindiSymbols;
 import com.android.inputmethod.keyboard.layout.customizer.HindiCustomizer;
 import com.android.inputmethod.keyboard.layout.expected.ExpectedKey;

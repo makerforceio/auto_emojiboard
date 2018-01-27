@@ -5,7 +5,7 @@ android {
     buildToolsVersion "27.0.2"
 
     defaultConfig {
-        applicationId "com.android.inputmethod.latin"
+        applicationId "io.makerforce.inputmethod.latin"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
@@ -22,12 +22,17 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
     aaptOptions.noCompress ".dict"
+    externalNativeBuild {
+        ndkBuild {
+            path '../LatinIME/native/jni/Android.mk'
+        }
+    }
 }
 
 dependencies {
