@@ -1,0 +1,3320 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+
+<!--
+-->
+<!--  File of hand postures coordinates/identities from Jochen Triesch Gallery.
+
+      Protocol : Triesch
+      DataSet  : Test
+
+-->
+ 
+
+<handposture_recognizer  xmlns="http://www.idiap.ch/~marcel/PETS2002"
+		    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		    xsi:schemaLocation=
+                     "http://www.idiap.ch/~marcel/PETS2002
+                      http://www.idiap.ch/~marcel/PETS2002/XML/handposture_recognizer.xsd">
+
+  <!-- this is a comment ... add more as appropriate -->
+
+  <header>
+        <recording site="PETS2002 (IDIAP)" date="02/26/02"/>
+        <software name="GROUND TRUTH" platform="SOLARIS" version="1" run_date="02/26/02">
+            <parameters param_1="0" param_2="0" param_3="0" param_4="0" param_5="0" param_6="0"/>
+        </software>
+  </header>
+  <sequence>
+ 
+  <frame id="bfritza3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="83" xmin="42" xmax="87" ymin="61" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="bfritzb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="74" ypos="70" xmin="56" xmax="93" ymin="32" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="bfritzc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="74" ypos="78" xmin="48" xmax="101" ymin="50" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="bfritzd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="69" ypos="67" xmin="51" xmax="88" ymin="28" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="bfritzg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="64" ypos="89" xmin="35" xmax="93" ymin="69" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="bfritzh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="66" ypos="85" xmin="36" xmax="97" ymin="66" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="bfritzi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="74" ypos="75" xmin="54" xmax="95" ymin="43" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="bfritzl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="79" ypos="70" xmin="45" xmax="114" ymin="28" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="bfritzv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="60" ypos="69" xmin="39" xmax="82" ymin="28" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="bfritzy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="64" ypos="83" xmin="36" xmax="92" ymin="61" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="haloosa3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="60" ypos="71" xmin="39" xmax="81" ymin="49" ymax="94"/>
+  	</object>
+  </frame>
+  <frame id="haloosb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="52" ypos="60" xmin="32" xmax="72" ymin="17" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="haloosc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="60" ypos="71" xmin="34" xmax="87" ymin="41" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="haloosd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="52" ypos="60" xmin="32" xmax="73" ymin="18" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="haloosg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="49" ypos="70" xmin="18" xmax="81" ymin="48" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="haloosi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="53" ypos="66" xmin="34" xmax="72" ymin="31" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="haloosl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="53" ypos="64" xmin="18" xmax="88" ymin="24" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="haloosv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="50" ypos="62" xmin="28" xmax="72" ymin="19" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="haloosy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="65" ypos="73" xmin="29" xmax="101" ymin="48" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="mpoetza3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="67" ypos="79" xmin="49" xmax="86" ymin="61" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="66" xmin="45" xmax="80" ymin="31" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="65" ypos="84" xmin="42" xmax="89" ymin="58" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="68" ypos="68" xmin="53" xmax="84" ymin="36" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="53" ypos="84" xmin="28" xmax="78" ymin="64" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="47" ypos="83" xmin="21" xmax="74" ymin="63" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="68" ypos="74" xmin="50" xmax="87" ymin="42" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="82" ypos="73" xmin="52" xmax="113" ymin="36" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="69" ypos="68" xmin="48" xmax="90" ymin="30" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mpoetzy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="69" ypos="79" xmin="38" xmax="101" ymin="56" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="ckaisea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="63" ypos="77" xmin="35" xmax="91" ymin="49" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="ckaisea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="81" xmin="36" xmax="93" ymin="55" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="ckaisea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="67" ypos="83" xmin="40" xmax="94" ymin="58" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="64" ypos="57" xmin="39" xmax="89" ymin="7" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="57" xmin="32" xmax="86" ymin="7" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="59" xmin="34" xmax="84" ymin="9" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ckaisec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="76" ypos="72" xmin="41" xmax="112" ymin="38" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ckaisec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="83" ypos="77" xmin="47" xmax="120" ymin="45" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="ckaisec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="71" ypos="80" xmin="38" xmax="105" ymin="51" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ckaised1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="59" xmin="34" xmax="83" ymin="15" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="ckaised2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="67" ypos="59" xmin="40" xmax="95" ymin="11" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ckaised3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="55" ypos="64" xmin="30" xmax="81" ymin="16" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="63" ypos="79" xmin="24" xmax="102" ymin="52" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="66" ypos="71" xmin="27" xmax="105" ymin="42" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="69" ypos="81" xmin="33" xmax="106" ymin="56" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="58" ypos="71" xmin="19" xmax="97" ymin="44" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="55" ypos="84" xmin="13" xmax="98" ymin="56" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ckaiseh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="68" ypos="83" xmin="28" xmax="108" ymin="58" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ckaisei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="53" ypos="69" xmin="31" xmax="75" ymin="33" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="ckaisei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="65" ypos="73" xmin="40" xmax="90" ymin="38" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ckaisei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="74" ypos="77" xmin="49" xmax="99" ymin="40" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="ckaisel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="69" ypos="66" xmin="31" xmax="107" ymin="24" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="ckaisel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="80" ypos="66" xmin="39" xmax="122" ymin="21" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="ckaisel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="77" ypos="66" xmin="37" xmax="117" ymin="23" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="ckaisev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="46" ypos="66" xmin="16" xmax="76" ymin="20" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="ckaisev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="58" ypos="65" xmin="28" xmax="88" ymin="16" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="ckaisev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="66" xmin="35" xmax="87" ymin="19" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="ckaisey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="53" ypos="81" xmin="17" xmax="89" ymin="52" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="ckaisey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="58" ypos="76" xmin="22" xmax="95" ymin="42" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="ckaisey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="72" ypos="84" xmin="30" xmax="115" ymin="51" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="ermaela1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="56" ypos="69" xmin="30" xmax="82" ymin="41" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="ermaela2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="57" ypos="77" xmin="32" xmax="83" ymin="49" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="ermaela3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="53" ypos="81" xmin="26" xmax="81" ymin="50" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ermaelb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="56" xmin="33" xmax="78" ymin="8" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="ermaelb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="57" xmin="33" xmax="78" ymin="8" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="ermaelb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="62" xmin="29" xmax="81" ymin="7" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="ermaelc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="53" ypos="63" xmin="22" xmax="84" ymin="26" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="ermaelc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="56" ypos="70" xmin="27" xmax="85" ymin="36" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="ermaelc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="50" ypos="76" xmin="19" xmax="82" ymin="41" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="ermaeld1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="49" ypos="51" xmin="23" xmax="75" ymin="5" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="ermaeld2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="59" ypos="61" xmin="31" xmax="87" ymin="13" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="ermaeld3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="61" ypos="60" xmin="31" xmax="92" ymin="8" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ermaelg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="49" ypos="83" xmin="12" xmax="86" ymin="58" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ermaelg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="83" xmin="20" xmax="96" ymin="57" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ermaelg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="57" ypos="84" xmin="17" xmax="98" ymin="55" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="ermaelh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="45" ypos="72" xmin="9" xmax="82" ymin="48" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="ermaelh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="45" ypos="83" xmin="8" xmax="83" ymin="54" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ermaelh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="56" ypos="86" xmin="14" xmax="99" ymin="51" ymax="121"/>
+  	</object>
+  </frame>
+  <frame id="ermaeli1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="60" ypos="64" xmin="40" xmax="80" ymin="24" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="ermaeli2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="58" ypos="68" xmin="36" xmax="81" ymin="24" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ermaeli3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="53" ypos="70" xmin="31" xmax="76" ymin="24" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="ermaell1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="64" ypos="61" xmin="23" xmax="105" ymin="14" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="ermaell2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="58" ypos="63" xmin="19" xmax="97" ymin="14" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="ermaell3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="65" ypos="67" xmin="23" xmax="108" ymin="16" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="ermaelv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="70" ypos="58" xmin="44" xmax="97" ymin="9" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="ermaelv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="59" ypos="61" xmin="35" xmax="83" ymin="12" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="ermaelv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="50" ypos="63" xmin="21" xmax="79" ymin="12" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="ermaely1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="56" ypos="67" xmin="19" xmax="93" ymin="31" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="ermaely2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="66" ypos="70" xmin="31" xmax="102" ymin="33" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="ermaely3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="58" ypos="76" xmin="19" xmax="98" ymin="37" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="gbanava1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="70" ypos="83" xmin="40" xmax="100" ymin="53" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gbanava2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="54" ypos="76" xmin="28" xmax="81" ymin="50" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="gbanava3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="66" ypos="77" xmin="43" xmax="89" ymin="52" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="gbanavb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="64" ypos="61" xmin="41" xmax="88" ymin="11" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="gbanavb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="67" ypos="62" xmin="47" xmax="88" ymin="15" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="gbanavb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="69" ypos="59" xmin="50" xmax="89" ymin="13" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="gbanavc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="82" ypos="83" xmin="48" xmax="116" ymin="50" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="gbanavc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="67" ypos="83" xmin="36" xmax="99" ymin="54" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gbanavc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="72" ypos="83" xmin="38" xmax="106" ymin="49" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="gbanavd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="83" ypos="66" xmin="60" xmax="106" ymin="22" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gbanavd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="67" xmin="31" xmax="86" ymin="24" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gbanavd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="59" ypos="72" xmin="37" xmax="81" ymin="22" ymax="122"/>
+  	</object>
+  </frame>
+  <frame id="gbanavg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="63" ypos="87" xmin="29" xmax="97" ymin="63" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="gbanavg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="62" ypos="74" xmin="24" xmax="101" ymin="46" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="gbanavg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="57" ypos="79" xmin="20" xmax="94" ymin="58" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="gbanavh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="59" ypos="69" xmin="22" xmax="96" ymin="45" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="gbanavh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="63" ypos="79" xmin="26" xmax="101" ymin="58" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="gbanavh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="65" ypos="79" xmin="29" xmax="101" ymin="59" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="gbanavi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="70" ypos="69" xmin="49" xmax="92" ymin="33" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="gbanavi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="59" ypos="71" xmin="41" xmax="78" ymin="33" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gbanavi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="54" ypos="78" xmin="34" xmax="75" ymin="40" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="gbanavl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="79" ypos="69" xmin="41" xmax="118" ymin="24" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="gbanavl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="66" xmin="32" xmax="111" ymin="24" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gbanavl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="68" ypos="68" xmin="28" xmax="108" ymin="26" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gbanavv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="68" ypos="67" xmin="39" xmax="98" ymin="18" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="gbanavv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="65" xmin="32" xmax="90" ymin="22" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="gbanavv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="53" ypos="70" xmin="29" xmax="78" ymin="28" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gbanavy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="77" ypos="75" xmin="39" xmax="115" ymin="37" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gbanavy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="79" xmin="23" xmax="100" ymin="49" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="gbanavy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="56" ypos="78" xmin="17" xmax="95" ymin="49" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="gpetera1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="52" ypos="76" xmin="24" xmax="81" ymin="44" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gpetera2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="58" ypos="74" xmin="26" xmax="91" ymin="44" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="gpetera3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="65" ypos="73" xmin="36" xmax="94" ymin="38" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gpeterb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="65" ypos="56" xmin="39" xmax="91" ymin="5" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gpeterb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="57" xmin="35" xmax="84" ymin="4" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gpeterb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="65" ypos="58" xmin="39" xmax="91" ymin="4" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="gpeterc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="74" ypos="68" xmin="38" xmax="110" ymin="27" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="gpeterc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="71" ypos="72" xmin="39" xmax="104" ymin="33" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="gpeterc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="74" ypos="75" xmin="42" xmax="106" ymin="35" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="gpeterd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="70" ypos="63" xmin="37" xmax="103" ymin="15" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="gpeterd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="55" ypos="64" xmin="28" xmax="83" ymin="14" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gpeterd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="66" ypos="66" xmin="39" xmax="94" ymin="17" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="gpeterg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="46" ypos="83" xmin="8" xmax="84" ymin="54" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="gpeterg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="45" ypos="80" xmin="8" xmax="83" ymin="52" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gpeterg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="41" ypos="87" xmin="7" xmax="76" ymin="61" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gpeterh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="46" ypos="81" xmin="6" xmax="87" ymin="52" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gpeterh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="48" ypos="83" xmin="9" xmax="87" ymin="57" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gpeterh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="46" ypos="86" xmin="8" xmax="85" ymin="60" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gpeteri1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="65" ypos="71" xmin="40" xmax="90" ymin="32" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="gpeteri2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="76" ypos="56" xmin="50" xmax="102" ymin="20" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="gpeteri3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="71" ypos="74" xmin="48" xmax="94" ymin="35" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gpeterl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="81" ypos="64" xmin="37" xmax="125" ymin="17" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="gpeterl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="75" ypos="63" xmin="29" xmax="121" ymin="13" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gpeterl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="58" ypos="59" xmin="19" xmax="97" ymin="12" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="gpeterv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="56" ypos="63" xmin="24" xmax="89" ymin="13" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gpeterv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="51" ypos="57" xmin="24" xmax="78" ymin="7" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="gpeterv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="53" ypos="65" xmin="28" xmax="79" ymin="17" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="gpetery1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="77" xmin="28" xmax="108" ymin="41" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="gpetery2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="53" ypos="63" xmin="15" xmax="91" ymin="31" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="gpetery3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="77" ypos="63" xmin="40" xmax="115" ymin="30" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="hnevena1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="55" ypos="76" xmin="25" xmax="85" ymin="45" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="hnevena2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="72" xmin="39" xmax="90" ymin="41" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="hnevena3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="57" ypos="67" xmin="32" xmax="83" ymin="34" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="hnevenb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="56" ypos="56" xmin="29" xmax="83" ymin="8" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="hnevenb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="64" ypos="54" xmin="42" xmax="87" ymin="4" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="hnevenb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="58" xmin="37" xmax="89" ymin="8" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="hnevenc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="47" ypos="72" xmin="13" xmax="81" ymin="37" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="hnevenc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="68" ypos="74" xmin="34" xmax="102" ymin="43" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="hnevenc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="57" ypos="82" xmin="21" xmax="93" ymin="53" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="hnevend1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="64" ypos="64" xmin="32" xmax="97" ymin="14" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="hnevend2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="54" xmin="29" xmax="87" ymin="7" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="hnevend3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="43" ypos="65" xmin="14" xmax="72" ymin="18" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="hneveng1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="66" xmin="20" xmax="96" ymin="40" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="hneveng2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="48" ypos="64" xmin="11" xmax="85" ymin="38" ymax="90"/>
+  	</object>
+  </frame>
+  <frame id="hneveng3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="60" xmin="19" xmax="97" ymin="37" ymax="84"/>
+  	</object>
+  </frame>
+  <frame id="hnevenh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="48" ypos="74" xmin="9" xmax="88" ymin="49" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="hnevenh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="57" ypos="52" xmin="18" xmax="96" ymin="27" ymax="77"/>
+  	</object>
+  </frame>
+  <frame id="hnevenh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="54" ypos="64" xmin="15" xmax="93" ymin="39" ymax="89"/>
+  	</object>
+  </frame>
+  <frame id="hneveni1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="47" ypos="50" xmin="26" xmax="69" ymin="13" ymax="87"/>
+  	</object>
+  </frame>
+  <frame id="hneveni2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="57" ypos="59" xmin="33" xmax="82" ymin="22" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="hneveni3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="56" ypos="63" xmin="32" xmax="81" ymin="24" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="hnevenl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="77" ypos="60" xmin="36" xmax="118" ymin="14" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="hnevenl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="81" ypos="58" xmin="42" xmax="121" ymin="13" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="hnevenl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="64" ypos="60" xmin="24" xmax="105" ymin="12" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="hnevenv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="45" ypos="58" xmin="20" xmax="70" ymin="12" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="hnevenv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="58" ypos="61" xmin="33" xmax="83" ymin="14" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="hnevenv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="84" ypos="58" xmin="58" xmax="111" ymin="6" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="hneveny1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="49" ypos="71" xmin="12" xmax="87" ymin="38" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="hneveny2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="72" ypos="72" xmin="35" xmax="109" ymin="40" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="hneveny3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="47" ypos="73" xmin="11" xmax="83" ymin="41" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="jtriesa1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="69" ypos="71" xmin="44" xmax="95" ymin="45" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesa2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="72" xmin="39" xmax="89" ymin="47" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="jtriesa3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="68" ypos="75" xmin="43" xmax="94" ymin="49" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="jtriesb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="71" ypos="54" xmin="53" xmax="89" ymin="11" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="55" xmin="44" xmax="82" ymin="13" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="57" xmin="45" xmax="82" ymin="13" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="jtriesc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="82" ypos="72" xmin="52" xmax="113" ymin="44" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="jtriesc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="77" ypos="67" xmin="51" xmax="104" ymin="40" ymax="95"/>
+  	</object>
+  </frame>
+  <frame id="jtriesc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="76" ypos="73" xmin="46" xmax="106" ymin="46" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="jtriesd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="64" ypos="58" xmin="46" xmax="82" ymin="18" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="jtriesd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="72" ypos="56" xmin="52" xmax="92" ymin="14" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="jtriesd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="64" ypos="57" xmin="46" xmax="82" ymin="17" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="65" ypos="91" xmin="34" xmax="97" ymin="69" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="jtriesg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="52" ypos="90" xmin="21" xmax="84" ymin="66" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="jtriesg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="36" ypos="90" xmin="7" xmax="65" ymin="67" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="jtriesh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="51" ypos="87" xmin="18" xmax="84" ymin="63" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="jtriesh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="50" ypos="89" xmin="16" xmax="85" ymin="65" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="jtriesh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="49" ypos="90" xmin="15" xmax="84" ymin="66" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="jtriesi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="65" ypos="67" xmin="42" xmax="88" ymin="31" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="jtriesi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="66" ypos="62" xmin="45" xmax="87" ymin="28" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="65" ypos="63" xmin="46" xmax="85" ymin="30" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="jtriesl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="80" ypos="62" xmin="47" xmax="113" ymin="22" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="jtriesl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="72" ypos="59" xmin="38" xmax="106" ymin="19" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="jtriesl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="63" ypos="60" xmin="30" xmax="96" ymin="22" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="jtriesv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="66" ypos="59" xmin="45" xmax="87" ymin="19" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="jtriesv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="68" ypos="57" xmin="48" xmax="89" ymin="19" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="jtriesv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="54" ypos="56" xmin="33" xmax="76" ymin="17" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="jtriesy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="65" ypos="68" xmin="32" xmax="98" ymin="41" ymax="95"/>
+  	</object>
+  </frame>
+  <frame id="jtriesy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="65" ypos="67" xmin="32" xmax="99" ymin="41" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="jtriesy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="71" ypos="69" xmin="40" xmax="103" ymin="40" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="jwiegha1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="62" ypos="80" xmin="34" xmax="90" ymin="54" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="jwiegha2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="61" ypos="76" xmin="34" xmax="88" ymin="50" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="jwiegha3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="67" ypos="75" xmin="35" xmax="99" ymin="45" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="jwieghb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="77" ypos="62" xmin="55" xmax="100" ymin="16" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="66" ypos="60" xmin="42" xmax="90" ymin="13" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="jwieghb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="60" ypos="61" xmin="37" xmax="84" ymin="14" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="77" ypos="78" xmin="44" xmax="110" ymin="47" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="65" ypos="78" xmin="34" xmax="97" ymin="48" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="78" ypos="82" xmin="47" xmax="110" ymin="53" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="jwieghd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="75" ypos="65" xmin="50" xmax="101" ymin="18" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="jwieghd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="66" ypos="66" xmin="41" xmax="92" ymin="19" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="jwieghd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="69" ypos="66" xmin="44" xmax="94" ymin="19" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="jwieghg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="46" ypos="90" xmin="11" xmax="81" ymin="69" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="jwieghg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="50" ypos="79" xmin="15" xmax="86" ymin="56" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="jwieghg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="50" ypos="87" xmin="14" xmax="87" ymin="65" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="48" ypos="82" xmin="14" xmax="83" ymin="59" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="jwieghh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="45" ypos="83" xmin="9" xmax="82" ymin="59" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="jwieghh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="55" ypos="74" xmin="19" xmax="91" ymin="49" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="jwieghi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="67" ypos="71" xmin="44" xmax="90" ymin="35" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="jwieghi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="63" ypos="71" xmin="41" xmax="85" ymin="35" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="jwieghi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="69" ypos="61" xmin="46" xmax="93" ymin="22" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="jwieghl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="66" xmin="32" xmax="110" ymin="23" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="jwieghl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="78" ypos="67" xmin="37" xmax="119" ymin="22" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="jwieghl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="65" ypos="70" xmin="22" xmax="108" ymin="24" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="jwieghv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="65" xmin="34" xmax="88" ymin="20" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="jwieghv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="52" ypos="64" xmin="28" xmax="77" ymin="20" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="jwieghv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="64" xmin="34" xmax="88" ymin="18" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="jwieghy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="74" ypos="78" xmin="32" xmax="116" ymin="44" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="jwieghy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="55" ypos="75" xmin="20" xmax="91" ymin="44" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="jwieghy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="74" xmin="32" xmax="104" ymin="41" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="kbrauea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="61" ypos="83" xmin="37" xmax="86" ymin="59" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="kbrauea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="63" ypos="77" xmin="37" xmax="89" ymin="51" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="kbrauea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="58" ypos="81" xmin="34" xmax="83" ymin="55" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="kbraueb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="64" xmin="40" xmax="85" ymin="19" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="kbraueb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="64" ypos="61" xmin="42" xmax="86" ymin="17" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="kbraueb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="62" xmin="38" xmax="81" ymin="16" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="kbrauec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="75" ypos="81" xmin="41" xmax="109" ymin="49" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="kbrauec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="73" ypos="73" xmin="39" xmax="107" ymin="41" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="kbrauec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="77" ypos="77" xmin="42" xmax="112" ymin="45" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="kbraued1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="51" ypos="66" xmin="30" xmax="73" ymin="22" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="kbraued2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="57" ypos="66" xmin="32" xmax="83" ymin="21" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="kbraued3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="64" ypos="67" xmin="42" xmax="86" ymin="17" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="kbraueg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="49" ypos="89" xmin="15" xmax="84" ymin="66" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="kbraueg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="48" ypos="85" xmin="15" xmax="82" ymin="60" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="kbraueg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="53" ypos="86" xmin="16" xmax="91" ymin="60" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="kbraueh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="43" ypos="87" xmin="9" xmax="78" ymin="63" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="kbraueh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="49" ypos="84" xmin="14" xmax="85" ymin="58" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="kbraueh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="53" ypos="86" xmin="18" xmax="88" ymin="61" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="kbrauei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="59" ypos="73" xmin="37" xmax="82" ymin="39" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="kbrauei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="62" ypos="70" xmin="38" xmax="87" ymin="36" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="kbrauei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="64" ypos="67" xmin="41" xmax="88" ymin="32" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="kbrauel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="69" ypos="66" xmin="29" xmax="109" ymin="21" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="kbrauel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="70" ypos="65" xmin="31" xmax="110" ymin="20" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="kbrauel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="69" ypos="61" xmin="29" xmax="109" ymin="16" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="kbrauev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="54" ypos="70" xmin="29" xmax="80" ymin="26" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="kbrauev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="56" ypos="65" xmin="32" xmax="81" ymin="19" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="kbrauev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="53" ypos="60" xmin="29" xmax="78" ymin="16" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="kbrauey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="59" ypos="76" xmin="21" xmax="97" ymin="49" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="kbrauey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="76" xmin="19" xmax="103" ymin="48" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="kbrauey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="57" ypos="81" xmin="19" xmax="96" ymin="54" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mbeckea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="79" xmin="41" xmax="87" ymin="55" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="mbeckea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="55" ypos="75" xmin="31" xmax="79" ymin="54" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="mbeckea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="61" ypos="85" xmin="40" xmax="83" ymin="66" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="59" xmin="40" xmax="84" ymin="19" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="66" ypos="58" xmin="47" xmax="85" ymin="17" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="58" ypos="65" xmin="40" xmax="76" ymin="26" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mbeckec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="53" ypos="79" xmin="27" xmax="79" ymin="53" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mbeckec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="61" ypos="81" xmin="34" xmax="88" ymin="53" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mbeckec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="58" ypos="87" xmin="33" xmax="84" ymin="65" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mbecked1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="69" xmin="40" xmax="76" ymin="29" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mbecked2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="52" ypos="66" xmin="33" xmax="71" ymin="27" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="mbecked3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="56" ypos="74" xmin="42" xmax="71" ymin="36" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="47" ypos="78" xmin="19" xmax="76" ymin="60" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="54" ypos="79" xmin="25" xmax="83" ymin="61" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="69" ypos="77" xmin="39" xmax="99" ymin="56" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="40" ypos="69" xmin="10" xmax="71" ymin="51" ymax="88"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="56" ypos="70" xmin="27" xmax="85" ymin="52" ymax="89"/>
+  	</object>
+  </frame>
+  <frame id="mbeckeh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="48" ypos="86" xmin="17" xmax="79" ymin="66" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mbeckei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="60" ypos="76" xmin="42" xmax="79" ymin="45" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mbeckei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="80" ypos="76" xmin="61" xmax="100" ymin="46" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mbeckei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="60" ypos="82" xmin="42" xmax="78" ymin="51" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="mbeckel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="75" ypos="64" xmin="43" xmax="108" ymin="28" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="mbeckel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="67" ypos="68" xmin="40" xmax="95" ymin="31" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mbeckel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="72" ypos="73" xmin="44" xmax="101" ymin="37" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mbeckev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="64" ypos="64" xmin="44" xmax="85" ymin="27" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="mbeckev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="64" ypos="68" xmin="47" xmax="82" ymin="33" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mbeckey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="64" ypos="77" xmin="36" xmax="92" ymin="53" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="mbeckey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="59" ypos="78" xmin="32" xmax="86" ymin="53" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mbeckey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="83" xmin="32" xmax="91" ymin="59" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mkefala1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="65" ypos="71" xmin="40" xmax="91" ymin="43" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="mkefala2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="54" ypos="74" xmin="27" xmax="81" ymin="41" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mkefala3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="58" ypos="73" xmin="32" xmax="85" ymin="39" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mkefalb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="59" xmin="36" xmax="83" ymin="8" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mkefalb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="60" xmin="36" xmax="83" ymin="8" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefalb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="49" ypos="62" xmin="25" xmax="73" ymin="8" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mkefalc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="87" ypos="77" xmin="54" xmax="121" ymin="42" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefalc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="56" ypos="67" xmin="23" xmax="90" ymin="26" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mkefalc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="66" ypos="86" xmin="30" xmax="103" ymin="51" ymax="122"/>
+  	</object>
+  </frame>
+  <frame id="mkefald1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="53" ypos="76" xmin="28" xmax="78" ymin="32" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="mkefald2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="40" ypos="66" xmin="14" xmax="66" ymin="13" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="mkefald3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="56" ypos="63" xmin="32" xmax="80" ymin="10" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mkefalg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="48" ypos="83" xmin="12" xmax="84" ymin="54" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefalg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="51" ypos="78" xmin="15" xmax="87" ymin="45" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mkefalg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="39" ypos="74" xmin="1" xmax="78" ymin="40" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mkefalh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="54" ypos="64" xmin="11" xmax="97" ymin="36" ymax="93"/>
+  	</object>
+  </frame>
+  <frame id="mkefalh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="41" ypos="65" xmin="2" xmax="81" ymin="30" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="mkefalh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="55" ypos="76" xmin="16" xmax="95" ymin="41" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefali1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="69" ypos="52" xmin="44" xmax="95" ymin="9" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="mkefali2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="77" ypos="68" xmin="55" xmax="99" ymin="27" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mkefali3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="65" ypos="66" xmin="38" xmax="93" ymin="21" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefall1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="58" ypos="65" xmin="16" xmax="101" ymin="13" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mkefall2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="81" ypos="67" xmin="37" xmax="125" ymin="17" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mkefall3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="59" ypos="62" xmin="16" xmax="103" ymin="8" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mkefalv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="68" ypos="70" xmin="41" xmax="96" ymin="19" ymax="121"/>
+  	</object>
+  </frame>
+  <frame id="mkefalv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="59" ypos="66" xmin="34" xmax="85" ymin="10" ymax="123"/>
+  	</object>
+  </frame>
+  <frame id="mkefalv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="58" ypos="65" xmin="31" xmax="85" ymin="8" ymax="122"/>
+  	</object>
+  </frame>
+  <frame id="mkefaly1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="54" ypos="72" xmin="1" xmax="107" ymin="38" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mkefaly2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="59" ypos="78" xmin="9" xmax="110" ymin="45" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mkefaly3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="81" xmin="11" xmax="111" ymin="45" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="mrinnea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="58" ypos="80" xmin="32" xmax="84" ymin="52" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mrinnea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="62" ypos="75" xmin="31" xmax="94" ymin="45" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="mrinnea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="71" ypos="73" xmin="42" xmax="101" ymin="41" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="mrinneb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="60" ypos="65" xmin="39" xmax="82" ymin="20" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mrinneb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="60" xmin="41" xmax="78" ymin="17" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="mrinneb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="61" ypos="62" xmin="40" xmax="82" ymin="16" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mrinnec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="70" ypos="83" xmin="38" xmax="102" ymin="48" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="mrinnec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="76" ypos="78" xmin="43" xmax="109" ymin="45" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mrinnec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="79" ypos="75" xmin="45" xmax="114" ymin="40" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mrinned1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="63" ypos="65" xmin="42" xmax="84" ymin="23" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mrinned2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="67" ypos="59" xmin="46" xmax="88" ymin="19" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="mrinned3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="47" ypos="63" xmin="27" xmax="68" ymin="17" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mrinneg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="41" ypos="86" xmin="3" xmax="80" ymin="59" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="mrinneg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="49" ypos="83" xmin="11" xmax="87" ymin="55" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mrinneg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="45" ypos="72" xmin="11" xmax="80" ymin="44" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="mrinneh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="50" ypos="82" xmin="17" xmax="83" ymin="60" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mrinneh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="47" ypos="78" xmin="9" xmax="86" ymin="51" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="mrinneh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="40" ypos="75" xmin="2" xmax="78" ymin="46" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="mrinnei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="68" ypos="67" xmin="46" xmax="91" ymin="28" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mrinnei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="72" ypos="66" xmin="49" xmax="96" ymin="21" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mrinnei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="67" ypos="70" xmin="44" xmax="91" ymin="30" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mrinnel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="76" ypos="66" xmin="33" xmax="119" ymin="12" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="mrinnel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="66" xmin="30" xmax="113" ymin="14" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="mrinnel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="65" ypos="61" xmin="28" xmax="103" ymin="11" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mrinnev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="62" xmin="37" xmax="86" ymin="7" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mrinnev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="66" ypos="61" xmin="38" xmax="95" ymin="8" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="mrinnev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="66" ypos="64" xmin="41" xmax="92" ymin="13" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="mrinney1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="67" ypos="82" xmin="19" xmax="115" ymin="47" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="mrinney2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="75" xmin="16" xmax="106" ymin="43" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mrinney3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="81" xmin="26" xmax="111" ymin="46" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="mschuea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="77" xmin="39" xmax="90" ymin="44" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mschuea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="55" ypos="77" xmin="31" xmax="79" ymin="51" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="mschuea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="59" ypos="80" xmin="35" xmax="83" ymin="50" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mschueb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="63" xmin="35" xmax="91" ymin="12" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="mschueb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="57" ypos="66" xmin="32" xmax="82" ymin="17" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="mschueb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="64" ypos="68" xmin="43" xmax="85" ymin="23" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="mschuec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="43" ypos="82" xmin="13" xmax="74" ymin="48" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="mschuec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="43" ypos="81" xmin="12" xmax="75" ymin="47" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="mschuec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="62" ypos="79" xmin="32" xmax="92" ymin="48" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mschued1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="55" ypos="65" xmin="31" xmax="79" ymin="21" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="mschued2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="37" ypos="67" xmin="16" xmax="58" ymin="25" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="mschued3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="59" ypos="70" xmin="38" xmax="80" ymin="26" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="mschueg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="57" ypos="71" xmin="21" xmax="94" ymin="47" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="mschueg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="82" xmin="22" xmax="94" ymin="58" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="mschueg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="70" ypos="69" xmin="32" xmax="109" ymin="42" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="mschueh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="56" ypos="72" xmin="11" xmax="101" ymin="43" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="mschueh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="53" ypos="76" xmin="14" xmax="93" ymin="50" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="mschueh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="69" ypos="72" xmin="32" xmax="106" ymin="49" ymax="96"/>
+  	</object>
+  </frame>
+  <frame id="mschuei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="53" ypos="74" xmin="32" xmax="74" ymin="36" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mschuei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="59" ypos="76" xmin="40" xmax="79" ymin="38" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="mschuei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="58" ypos="75" xmin="40" xmax="77" ymin="38" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="mschuel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="50" ypos="70" xmin="12" xmax="89" ymin="21" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="mschuel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="63" ypos="69" xmin="31" xmax="96" ymin="27" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="mschuel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="76" ypos="70" xmin="45" xmax="107" ymin="28" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mschuev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="47" ypos="71" xmin="25" xmax="70" ymin="21" ymax="122"/>
+  	</object>
+  </frame>
+  <frame id="mschuev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="56" ypos="70" xmin="34" xmax="79" ymin="22" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="mschuev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="75" ypos="69" xmin="53" xmax="97" ymin="27" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="mschuey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="59" ypos="80" xmin="26" xmax="93" ymin="45" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="mschuey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="56" ypos="77" xmin="23" xmax="90" ymin="47" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="mschuey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="82" ypos="83" xmin="50" xmax="115" ymin="55" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="nkruega1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="80" ypos="76" xmin="55" xmax="106" ymin="49" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="nkruega2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="53" ypos="80" xmin="26" xmax="81" ymin="54" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="nkruega3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="64" ypos="64" xmin="39" xmax="89" ymin="43" ymax="86"/>
+  	</object>
+  </frame>
+  <frame id="nkruegb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="60" ypos="60" xmin="42" xmax="78" ymin="12" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="nkruegb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="61" ypos="59" xmin="41" xmax="81" ymin="10" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="nkruegb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="51" ypos="55" xmin="31" xmax="72" ymin="8" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="nkruegc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="54" ypos="74" xmin="22" xmax="86" ymin="44" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="nkruegc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="49" ypos="71" xmin="21" xmax="78" ymin="39" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="nkruegc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="67" ypos="66" xmin="37" xmax="97" ymin="33" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="nkruegd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="70" ypos="65" xmin="48" xmax="93" ymin="16" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="nkruegd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="64" ypos="58" xmin="40" xmax="88" ymin="10" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="nkruegd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="64" xmin="32" xmax="84" ymin="12" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="nkruegg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="83" xmin="24" xmax="93" ymin="62" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="nkruegg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="48" ypos="78" xmin="12" xmax="85" ymin="56" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="nkruegg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="53" ypos="85" xmin="20" xmax="87" ymin="65" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="nkruegh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="58" ypos="78" xmin="25" xmax="92" ymin="56" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="nkruegh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="45" ypos="64" xmin="8" xmax="82" ymin="44" ymax="85"/>
+  	</object>
+  </frame>
+  <frame id="nkruegh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="43" ypos="67" xmin="7" xmax="80" ymin="47" ymax="87"/>
+  	</object>
+  </frame>
+  <frame id="nkruegi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="72" ypos="64" xmin="53" xmax="91" ymin="25" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="nkruegi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="72" ypos="68" xmin="52" xmax="93" ymin="31" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="nkruegi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="66" ypos="73" xmin="48" xmax="84" ymin="35" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="nkruegl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="60" ypos="59" xmin="26" xmax="94" ymin="13" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="nkruegl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="70" ypos="74" xmin="36" xmax="105" ymin="32" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="nkruegl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="70" xmin="40" xmax="102" ymin="26" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="nkruegv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="61" ypos="60" xmin="40" xmax="83" ymin="12" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="nkruegv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="50" ypos="63" xmin="29" xmax="71" ymin="17" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="nkruegv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="55" ypos="66" xmin="36" xmax="74" ymin="19" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="nkruegy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="83" xmin="34" xmax="103" ymin="49" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="nkruegy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="53" ypos="76" xmin="19" xmax="88" ymin="41" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="nkruegy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="55" ypos="85" xmin="20" xmax="91" ymin="53" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="orehsea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="55" ypos="82" xmin="38" xmax="73" ymin="54" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="orehsea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="61" ypos="63" xmin="45" xmax="77" ymin="43" ymax="83"/>
+  	</object>
+  </frame>
+  <frame id="orehsea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="74" ypos="59" xmin="58" xmax="90" ymin="38" ymax="80"/>
+  	</object>
+  </frame>
+  <frame id="orehseb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="74" ypos="57" xmin="60" xmax="89" ymin="17" ymax="97"/>
+  	</object>
+  </frame>
+  <frame id="orehseb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="50" xmin="49" xmax="78" ymin="13" ymax="88"/>
+  	</object>
+  </frame>
+  <frame id="orehseb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="75" ypos="53" xmin="61" xmax="90" ymin="16" ymax="90"/>
+  	</object>
+  </frame>
+  <frame id="orehsec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="72" ypos="80" xmin="44" xmax="100" ymin="54" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="orehsec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="68" ypos="78" xmin="37" xmax="99" ymin="45" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="orehsec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="84" ypos="70" xmin="57" xmax="111" ymin="39" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="orehsed1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="77" ypos="64" xmin="55" xmax="100" ymin="13" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="orehsed2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="65" ypos="70" xmin="43" xmax="87" ymin="28" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="orehsed3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="59" ypos="69" xmin="41" xmax="77" ymin="26" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="orehseg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="54" ypos="79" xmin="24" xmax="84" ymin="51" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="orehseg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="55" ypos="82" xmin="24" xmax="86" ymin="57" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="orehseg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="49" ypos="93" xmin="20" xmax="78" ymin="68" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="orehseh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="49" ypos="88" xmin="23" xmax="76" ymin="67" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="orehseh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="63" ypos="79" xmin="33" xmax="94" ymin="54" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="orehseh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="44" ypos="77" xmin="16" xmax="72" ymin="56" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="orehsei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="66" ypos="64" xmin="45" xmax="87" ymin="28" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="orehsei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="62" ypos="82" xmin="42" xmax="82" ymin="45" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="orehsei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="79" ypos="74" xmin="59" xmax="99" ymin="36" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="orehsel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="90" ypos="62" xmin="56" xmax="125" ymin="13" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="orehsel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="72" ypos="70" xmin="36" xmax="109" ymin="23" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="orehsel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="88" ypos="70" xmin="53" xmax="123" ymin="26" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="orehsev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="70" ypos="61" xmin="51" xmax="90" ymin="17" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="orehsev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="50" ypos="70" xmin="28" xmax="73" ymin="27" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="orehsev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="66" ypos="73" xmin="45" xmax="88" ymin="28" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="orehsey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="80" ypos="71" xmin="46" xmax="114" ymin="41" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="orehsey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="54" ypos="77" xmin="24" xmax="85" ymin="46" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="orehsey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="72" ypos="78" xmin="39" xmax="106" ymin="45" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="pleucha1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="75" ypos="82" xmin="48" xmax="102" ymin="53" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="pleucha2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="62" ypos="71" xmin="39" xmax="85" ymin="42" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="pleucha3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="74" ypos="78" xmin="51" xmax="98" ymin="53" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="pleuchb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="70" ypos="61" xmin="46" xmax="94" ymin="10" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="pleuchb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="84" ypos="58" xmin="63" xmax="106" ymin="8" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="pleuchb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="69" ypos="62" xmin="47" xmax="91" ymin="15" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="pleuchc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="82" ypos="72" xmin="51" xmax="113" ymin="40" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="pleuchc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="63" ypos="82" xmin="35" xmax="91" ymin="53" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="pleuchc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="86" ypos="79" xmin="57" xmax="115" ymin="50" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="pleuchd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="69" ypos="58" xmin="44" xmax="95" ymin="7" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="pleuchd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="53" ypos="59" xmin="29" xmax="78" ymin="15" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="pleuchd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="68" ypos="63" xmin="46" xmax="91" ymin="13" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="pleuchg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="40" ypos="82" xmin="6" xmax="74" ymin="57" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="pleuchg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="41" ypos="79" xmin="4" xmax="78" ymin="55" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="pleuchg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="46" ypos="77" xmin="12" xmax="81" ymin="51" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="pleuchh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="44" ypos="72" xmin="11" xmax="78" ymin="46" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="pleuchh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="35" ypos="78" xmin="0" xmax="71" ymin="53" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="pleuchh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="55" ypos="66" xmin="21" xmax="90" ymin="44" ymax="89"/>
+  	</object>
+  </frame>
+  <frame id="pleuchi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="80" ypos="74" xmin="55" xmax="106" ymin="35" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="pleuchi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="59" ypos="71" xmin="34" xmax="85" ymin="34" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="pleuchi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="68" ypos="79" xmin="43" xmax="93" ymin="41" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="pleuchl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="64" xmin="34" xmax="108" ymin="16" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="pleuchl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="78" ypos="63" xmin="39" xmax="117" ymin="9" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="pleuchl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="68" xmin="31" xmax="112" ymin="16" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="pleuchv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="55" ypos="65" xmin="31" xmax="80" ymin="10" ymax="121"/>
+  	</object>
+  </frame>
+  <frame id="pleuchv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="78" ypos="63" xmin="56" xmax="100" ymin="7" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="pleuchv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="63" ypos="68" xmin="41" xmax="85" ymin="15" ymax="121"/>
+  	</object>
+  </frame>
+  <frame id="pleuchy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="78" ypos="79" xmin="38" xmax="118" ymin="38" ymax="121"/>
+  	</object>
+  </frame>
+  <frame id="pleuchy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="86" ypos="79" xmin="52" xmax="121" ymin="42" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="pleuchy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="67" ypos="82" xmin="29" xmax="106" ymin="45" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="saginsa1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="57" ypos="69" xmin="31" xmax="84" ymin="39" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="saginsa2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="58" ypos="69" xmin="28" xmax="88" ymin="32" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="saginsa3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="57" ypos="80" xmin="32" xmax="83" ymin="49" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="saginsb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="62" xmin="40" xmax="84" ymin="11" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="saginsb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="58" xmin="32" xmax="78" ymin="7" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="saginsb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="63" xmin="40" xmax="85" ymin="11" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="saginsc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="76" ypos="81" xmin="41" xmax="112" ymin="49" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="saginsc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="71" ypos="84" xmin="37" xmax="106" ymin="51" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="saginsc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="65" ypos="70" xmin="33" xmax="98" ymin="35" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="saginsd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="58" ypos="65" xmin="32" xmax="85" ymin="18" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="saginsd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="76" ypos="70" xmin="48" xmax="104" ymin="24" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="saginsd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="69" ypos="71" xmin="45" xmax="93" ymin="25" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="saginsg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="57" ypos="75" xmin="19" xmax="95" ymin="43" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="saginsg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="47" ypos="84" xmin="14" xmax="81" ymin="53" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="saginsg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="60" ypos="79" xmin="25" xmax="96" ymin="50" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="saginsh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="42" ypos="81" xmin="5" xmax="79" ymin="50" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="saginsh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="51" ypos="74" xmin="16" xmax="87" ymin="43" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="saginsh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="69" ypos="82" xmin="31" xmax="108" ymin="57" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="saginsi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="67" ypos="75" xmin="41" xmax="94" ymin="33" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="saginsi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="76" ypos="74" xmin="52" xmax="101" ymin="36" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="saginsi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="55" ypos="76" xmin="31" xmax="80" ymin="41" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="saginsl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="66" ypos="66" xmin="25" xmax="107" ymin="13" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="saginsl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="65" ypos="68" xmin="27" xmax="103" ymin="19" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="saginsl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="77" ypos="68" xmin="39" xmax="115" ymin="17" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="saginsv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="62" ypos="68" xmin="39" xmax="86" ymin="19" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="saginsv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="63" ypos="64" xmin="40" xmax="87" ymin="15" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="saginsv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="69" ypos="70" xmin="48" xmax="90" ymin="23" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="saginsy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="53" ypos="67" xmin="13" xmax="94" ymin="27" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="saginsy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="70" ypos="79" xmin="34" xmax="107" ymin="42" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="saginsy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="66" ypos="74" xmin="29" xmax="104" ymin="39" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="szadela1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="63" ypos="85" xmin="44" xmax="82" ymin="65" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="szadela2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="63" ypos="85" xmin="44" xmax="82" ymin="65" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="szadela3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="56" ypos="83" xmin="37" xmax="75" ymin="62" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="szadelb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="66" ypos="71" xmin="48" xmax="84" ymin="31" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="szadelb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="72" xmin="44" xmax="80" ymin="31" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="szadelb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="69" xmin="38" xmax="73" ymin="30" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="szadelc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="53" ypos="64" xmin="29" xmax="78" ymin="39" ymax="90"/>
+  	</object>
+  </frame>
+  <frame id="szadelc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="54" ypos="72" xmin="34" xmax="75" ymin="50" ymax="94"/>
+  	</object>
+  </frame>
+  <frame id="szadelc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="48" ypos="79" xmin="25" xmax="72" ymin="51" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="szadeld1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="56" ypos="77" xmin="37" xmax="76" ymin="40" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="szadeld2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="63" ypos="73" xmin="41" xmax="85" ymin="35" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="szadeld3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="66" ypos="70" xmin="47" xmax="86" ymin="33" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="szadelg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="51" ypos="76" xmin="19" xmax="83" ymin="58" ymax="95"/>
+  	</object>
+  </frame>
+  <frame id="szadelg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="47" ypos="87" xmin="16" xmax="78" ymin="68" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="szadelg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="58" ypos="83" xmin="26" xmax="90" ymin="64" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="szadelh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="49" ypos="77" xmin="15" xmax="84" ymin="60" ymax="95"/>
+  	</object>
+  </frame>
+  <frame id="szadelh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="43" ypos="88" xmin="10" xmax="77" ymin="69" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="szadelh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="53" ypos="84" xmin="21" xmax="85" ymin="66" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="szadeli1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="54" ypos="71" xmin="36" xmax="72" ymin="39" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="szadeli2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="55" ypos="77" xmin="38" xmax="73" ymin="49" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="szadeli3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="59" ypos="72" xmin="41" xmax="78" ymin="39" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="szadell1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="61" ypos="69" xmin="32" xmax="90" ymin="31" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="szadell2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="68" ypos="70" xmin="36" xmax="100" ymin="29" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="szadell3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="69" ypos="65" xmin="38" xmax="101" ymin="24" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="szadelv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="55" ypos="73" xmin="36" xmax="75" ymin="33" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="szadelv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="56" ypos="72" xmin="37" xmax="76" ymin="32" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="szadelv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="57" ypos="70" xmin="37" xmax="78" ymin="29" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="szadely1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="64" ypos="85" xmin="33" xmax="96" ymin="56" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="szadely2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="57" ypos="84" xmin="27" xmax="88" ymin="55" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="szadely3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="60" ypos="75" xmin="28" xmax="92" ymin="43" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tkersca1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="56" ypos="78" xmin="32" xmax="80" ymin="52" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tkersca2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="57" ypos="77" xmin="33" xmax="81" ymin="51" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tkersca3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="56" ypos="79" xmin="32" xmax="80" ymin="52" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tkerscb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="58" ypos="62" xmin="38" xmax="78" ymin="18" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="tkerscb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="55" ypos="64" xmin="35" xmax="76" ymin="18" ymax="110"/>
+  	</object>
+  </frame>
+  <frame id="tkerscb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="57" ypos="63" xmin="37" xmax="78" ymin="15" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="tkerscc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="62" ypos="75" xmin="33" xmax="92" ymin="40" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="tkerscc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="55" ypos="79" xmin="29" xmax="82" ymin="48" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="tkerscc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="74" ypos="80" xmin="44" xmax="105" ymin="49" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="tkerscd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="55" ypos="62" xmin="33" xmax="77" ymin="15" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="tkerscd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="48" ypos="63" xmin="25" xmax="71" ymin="17" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="tkerscd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="57" ypos="64" xmin="34" xmax="81" ymin="14" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="tkerscg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="65" ypos="74" xmin="25" xmax="105" ymin="48" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="tkerscg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="63" ypos="78" xmin="25" xmax="102" ymin="53" ymax="103"/>
+  	</object>
+  </frame>
+  <frame id="tkerscg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="66" ypos="82" xmin="30" xmax="102" ymin="57" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tkersch1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="54" ypos="74" xmin="14" xmax="95" ymin="48" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="tkersch2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="58" ypos="80" xmin="21" xmax="96" ymin="56" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tkersch3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="55" ypos="68" xmin="14" xmax="96" ymin="42" ymax="94"/>
+  	</object>
+  </frame>
+  <frame id="tkersci1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="63" ypos="66" xmin="43" xmax="83" ymin="29" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tkersci2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="64" ypos="68" xmin="45" xmax="84" ymin="32" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="tkersci3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="77" ypos="72" xmin="58" xmax="97" ymin="33" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="tkerscl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="57" ypos="66" xmin="25" xmax="90" ymin="20" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="tkerscl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="78" ypos="69" xmin="44" xmax="112" ymin="23" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="tkerscl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="75" ypos="65" xmin="42" xmax="108" ymin="24" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tkerscv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="51" ypos="64" xmin="29" xmax="74" ymin="18" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="tkerscv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="65" ypos="64" xmin="42" xmax="88" ymin="16" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="tkerscv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="75" ypos="65" xmin="51" xmax="99" ymin="16" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="tkerscy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="52" ypos="79" xmin="13" xmax="91" ymin="44" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="tkerscy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="59" ypos="80" xmin="19" xmax="99" ymin="46" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="tkerscy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="62" ypos="86" xmin="23" xmax="102" ymin="53" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="tmaurea1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="65" ypos="66" xmin="43" xmax="88" ymin="41" ymax="91"/>
+  	</object>
+  </frame>
+  <frame id="tmaurea2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="62" ypos="61" xmin="41" xmax="84" ymin="34" ymax="88"/>
+  	</object>
+  </frame>
+  <frame id="tmaurea3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="67" ypos="64" xmin="45" xmax="90" ymin="38" ymax="90"/>
+  	</object>
+  </frame>
+  <frame id="tmaureb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="61" ypos="53" xmin="44" xmax="79" ymin="12" ymax="95"/>
+  	</object>
+  </frame>
+  <frame id="tmaureb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="59" xmin="41" xmax="77" ymin="16" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="tmaureb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="63" ypos="57" xmin="44" xmax="83" ymin="9" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="tmaurec1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="65" ypos="71" xmin="33" xmax="97" ymin="39" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tmaurec2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="57" ypos="77" xmin="30" xmax="85" ymin="47" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tmaurec3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="59" ypos="72" xmin="28" xmax="91" ymin="39" ymax="106"/>
+  	</object>
+  </frame>
+  <frame id="tmaured1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="66" ypos="55" xmin="44" xmax="88" ymin="10" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="tmaured2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="57" ypos="56" xmin="36" xmax="79" ymin="11" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="tmaured3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="56" ypos="57" xmin="32" xmax="81" ymin="6" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="tmaureg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="65" ypos="65" xmin="29" xmax="102" ymin="43" ymax="88"/>
+  	</object>
+  </frame>
+  <frame id="tmaureg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="62" ypos="64" xmin="28" xmax="97" ymin="41" ymax="87"/>
+  	</object>
+  </frame>
+  <frame id="tmaureg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="64" ypos="70" xmin="25" xmax="103" ymin="46" ymax="94"/>
+  	</object>
+  </frame>
+  <frame id="tmaureh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="65" ypos="62" xmin="25" xmax="105" ymin="39" ymax="86"/>
+  	</object>
+  </frame>
+  <frame id="tmaureh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="66" ypos="61" xmin="30" xmax="102" ymin="40" ymax="83"/>
+  	</object>
+  </frame>
+  <frame id="tmaureh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="63" ypos="68" xmin="26" xmax="101" ymin="42" ymax="94"/>
+  	</object>
+  </frame>
+  <frame id="tmaurei1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="63" ypos="63" xmin="43" xmax="83" ymin="25" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="tmaurei2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="69" ypos="63" xmin="48" xmax="90" ymin="26" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="tmaurei3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="62" ypos="58" xmin="40" xmax="84" ymin="15" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="tmaurel1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="68" ypos="61" xmin="36" xmax="101" ymin="16" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="tmaurel2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="70" ypos="55" xmin="36" xmax="104" ymin="12" ymax="98"/>
+  	</object>
+  </frame>
+  <frame id="tmaurel3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="73" ypos="55" xmin="36" xmax="110" ymin="7" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="tmaurev1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="57" ypos="56" xmin="34" xmax="80" ymin="11" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="tmaurev2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="57" ypos="54" xmin="37" xmax="77" ymin="9" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="tmaurev3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="60" ypos="54" xmin="37" xmax="83" ymin="8" ymax="100"/>
+  	</object>
+  </frame>
+  <frame id="tmaurey1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="68" xmin="30" xmax="107" ymin="35" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="tmaurey2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="67" xmin="29" xmax="107" ymin="34" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="tmaurey3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="61" ypos="65" xmin="17" xmax="106" ymin="32" ymax="99"/>
+  	</object>
+  </frame>
+  <frame id="umascha1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="54" ypos="77" xmin="28" xmax="80" ymin="51" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="umascha2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="62" ypos="75" xmin="37" xmax="88" ymin="50" ymax="101"/>
+  	</object>
+  </frame>
+  <frame id="umascha3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="48" ypos="73" xmin="24" xmax="73" ymin="44" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="umaschb1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="56" ypos="57" xmin="32" xmax="80" ymin="10" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="umaschb2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="62" ypos="57" xmin="38" xmax="86" ymin="8" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="umaschb3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="56" ypos="57" xmin="35" xmax="78" ymin="9" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="umaschc1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="47" ypos="76" xmin="17" xmax="78" ymin="40" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="umaschc2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="52" ypos="73" xmin="19" xmax="86" ymin="38" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="umaschc3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="57" ypos="74" xmin="27" xmax="87" ymin="38" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="umaschd1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="52" ypos="67" xmin="27" xmax="78" ymin="19" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="umaschd2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="52" ypos="67" xmin="27" xmax="78" ymin="15" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="umaschd3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="50" ypos="64" xmin="26" xmax="74" ymin="13" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="umaschg1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="42" ypos="82" xmin="7" xmax="78" ymin="53" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="umaschg2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="52" ypos="81" xmin="15" xmax="90" ymin="54" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="umaschg3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="43" ypos="80" xmin="7" xmax="80" ymin="55" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="umaschh1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="41" ypos="76" xmin="3" xmax="79" ymin="49" ymax="104"/>
+  	</object>
+  </frame>
+  <frame id="umaschh2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="48" ypos="73" xmin="11" xmax="85" ymin="44" ymax="102"/>
+  	</object>
+  </frame>
+  <frame id="umaschh3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="46" ypos="78" xmin="10" xmax="82" ymin="50" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="umaschi1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="53" ypos="69" xmin="33" xmax="74" ymin="31" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="umaschi2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="55" ypos="67" xmin="34" xmax="77" ymin="26" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="umaschi3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="68" ypos="72" xmin="44" xmax="93" ymin="32" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="umaschl1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="81" ypos="61" xmin="43" xmax="119" ymin="13" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="umaschl2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="73" ypos="61" xmin="32" xmax="114" ymin="11" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="umaschl3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="71" ypos="60" xmin="33" xmax="110" ymin="10" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="umaschv1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="63" ypos="60" xmin="37" xmax="89" ymin="13" ymax="108"/>
+  	</object>
+  </frame>
+  <frame id="umaschv2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="60" ypos="60" xmin="32" xmax="88" ymin="10" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="umaschv3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="69" ypos="62" xmin="42" xmax="97" ymin="10" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="umaschy1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="66" ypos="76" xmin="24" xmax="108" ymin="38" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="umaschy2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="57" ypos="72" xmin="15" xmax="99" ymin="39" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="umaschy3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="68" ypos="75" xmin="28" xmax="109" ymin="41" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="uschwaa1.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="54" ypos="82" xmin="22" xmax="86" ymin="48" ymax="116"/>
+  	</object>
+  </frame>
+  <frame id="uschwaa2.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="82" ypos="79" xmin="52" xmax="112" ymin="52" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="uschwaa3.pgm" num_objects="1">
+  	<object id="1" type="a">
+  		<info2d xpos="60" ypos="75" xmin="33" xmax="87" ymin="45" ymax="105"/>
+  	</object>
+  </frame>
+  <frame id="uschwab1.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="59" ypos="64" xmin="35" xmax="84" ymin="9" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="uschwab2.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="50" ypos="61" xmin="24" xmax="76" ymin="6" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="uschwab3.pgm" num_objects="1">
+  	<object id="1" type="b">
+  		<info2d xpos="84" ypos="64" xmin="65" xmax="104" ymin="10" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="uschwac1.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="74" ypos="69" xmin="50" xmax="99" ymin="30" ymax="109"/>
+  	</object>
+  </frame>
+  <frame id="uschwac2.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="71" ypos="73" xmin="43" xmax="100" ymin="36" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="uschwac3.pgm" num_objects="1">
+  	<object id="1" type="c">
+  		<info2d xpos="64" ypos="77" xmin="41" xmax="87" ymin="42" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="uschwad1.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="82" ypos="64" xmin="54" xmax="110" ymin="15" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="uschwad2.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="76" ypos="61" xmin="49" xmax="104" ymin="11" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="uschwad3.pgm" num_objects="1">
+  	<object id="1" type="d">
+  		<info2d xpos="87" ypos="66" xmin="64" xmax="111" ymin="19" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="uschwag1.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="55" ypos="87" xmin="19" xmax="92" ymin="59" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="uschwag2.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="53" ypos="80" xmin="16" xmax="90" ymin="49" ymax="111"/>
+  	</object>
+  </frame>
+  <frame id="uschwag3.pgm" num_objects="1">
+  	<object id="1" type="g">
+  		<info2d xpos="54" ypos="76" xmin="23" xmax="86" ymin="46" ymax="107"/>
+  	</object>
+  </frame>
+  <frame id="uschwah1.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="50" ypos="93" xmin="9" xmax="92" ymin="68" ymax="118"/>
+  	</object>
+  </frame>
+  <frame id="uschwah2.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="57" ypos="87" xmin="19" xmax="95" ymin="60" ymax="114"/>
+  	</object>
+  </frame>
+  <frame id="uschwah3.pgm" num_objects="1">
+  	<object id="1" type="h">
+  		<info2d xpos="47" ypos="83" xmin="6" xmax="89" ymin="52" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="uschwai1.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="73" ypos="69" xmin="50" xmax="97" ymin="24" ymax="115"/>
+  	</object>
+  </frame>
+  <frame id="uschwai2.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="90" ypos="71" xmin="63" xmax="118" ymin="25" ymax="117"/>
+  	</object>
+  </frame>
+  <frame id="uschwai3.pgm" num_objects="1">
+  	<object id="1" type="i">
+  		<info2d xpos="68" ypos="77" xmin="42" xmax="94" ymin="34" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="uschwal1.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="77" ypos="65" xmin="42" xmax="113" ymin="18" ymax="112"/>
+  	</object>
+  </frame>
+  <frame id="uschwal2.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="67" ypos="68" xmin="32" xmax="102" ymin="23" ymax="113"/>
+  	</object>
+  </frame>
+  <frame id="uschwal3.pgm" num_objects="1">
+  	<object id="1" type="l">
+  		<info2d xpos="79" ypos="69" xmin="43" xmax="115" ymin="16" ymax="123"/>
+  	</object>
+  </frame>
+  <frame id="uschwav1.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="63" ypos="65" xmin="30" xmax="97" ymin="11" ymax="119"/>
+  	</object>
+  </frame>
+  <frame id="uschwav2.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="86" ypos="67" xmin="58" xmax="115" ymin="12" ymax="123"/>
+  	</object>
+  </frame>
+  <frame id="uschwav3.pgm" num_objects="1">
+  	<object id="1" type="v">
+  		<info2d xpos="76" ypos="70" xmin="51" xmax="102" ymin="17" ymax="123"/>
+  	</object>
+  </frame>
+  <frame id="uschway1.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="72" ypos="73" xmin="34" xmax="111" ymin="27" ymax="120"/>
+  	</object>
+  </frame>
+  <frame id="uschway2.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="71" ypos="82" xmin="28" xmax="115" ymin="42" ymax="123"/>
+  	</object>
+  </frame>
+  <frame id="uschway3.pgm" num_objects="1">
+  	<object id="1" type="y">
+  		<info2d xpos="84" ypos="79" xmin="45" xmax="123" ymin="35" ymax="123"/>
+  	</object>
+  </frame>
+</sequence>
