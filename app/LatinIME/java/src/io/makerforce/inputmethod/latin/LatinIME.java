@@ -17,6 +17,7 @@
 package io.makerforce.inputmethod.latin;
 
 import android.Manifest.permission;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -26,6 +27,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Camera;
 import android.graphics.Color;
 import android.inputmethodservice.InputMethodService;
 import android.media.AudioManager;
@@ -94,9 +96,13 @@ import io.makerforce.inputmethod.latin.utils.ViewLayoutUtils;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nonnull;
@@ -166,6 +172,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     private final BroadcastReceiver mDictionaryDumpBroadcastReceiver =
             new DictionaryDumpBroadcastReceiver(this);
+
+    private CameraSuggestions mCameraSuggestions = new CameraSuggestions();
 
     final static class HideSoftInputReceiver extends BroadcastReceiver {
         private final InputMethodService mIms;
@@ -580,7 +588,36 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         mIsHardwareAcceleratedDrawingEnabled =
                 InputMethodServiceCompatUtils.enableHardwareAcceleration(this);
         Log.i(TAG, "Hardware accelerated drawing: " + mIsHardwareAcceleratedDrawingEnabled);
+
+
+
+
+        // Update suggestions occasionally
+        ScheduledExecutorService sched = Executors.newScheduledThreadPool(1);;
+        sched.scheduleWithFixedDelay(new CameraSuggestionsUpdater(), 1, 1, TimeUnit.SECONDS);
+        Log.d("AUTO", "Scheduled");
     }
+
+    class CameraSuggestionsUpdater implements Runnable {
+        @Override
+        public void run() {
+            try {
+                Log.d("AUTO", "Update");
+                mSuggestionStripView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        setNeutralSuggestionStrip();
+                    }
+                });
+            } catch (Exception e) {
+                Log.d("AUTO", e.toString());
+            }
+        }
+    }
+
+
+
+
 
     @Override
     public void onCreate() {
@@ -1515,6 +1552,18 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     }
 
     private void setSuggestedWords(final SuggestedWords suggestedWords) {
+
+
+
+
+        // Override all suggestions
+        mSuggestionStripView.setSuggestions(suggestedWords,
+                mRichImm.getCurrentSubtype().isRtlSubtype());
+
+
+
+
+/*
         final SettingsValues currentSettingsValues = mSettings.getCurrent();
         mInputLogic.setSuggestedWords(suggestedWords);
         // TODO: Modify this when we support suggestions with hard keyboard
@@ -1564,6 +1613,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             mSuggestionStripView.setSuggestions(suggestedWords,
                     mRichImm.getCurrentSubtype().isRtlSubtype());
         }
+*/
     }
 
     // TODO[IL]: Move this out of LatinIME.
@@ -1609,7 +1659,10 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         final SettingsValues currentSettings = mSettings.getCurrent();
         final SuggestedWords neutralSuggestions = currentSettings.mBigramPredictionEnabled
                 ? SuggestedWords.getEmptyInstance()
-                : currentSettings.mSpacingAndPunctuations.mSuggestPuncList;
+//                : currentSettings.mSpacingAndPunctuations.mSuggestPuncList;
+                : mCameraSuggestions.suggestedWords;
+        Log.d("AUTO", "Suggestions set");
+        Log.d("AUTO", neutralSuggestions.toString());
         setSuggestedWords(neutralSuggestions);
     }
 
@@ -1949,4 +2002,20 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                     visible ? Color.BLACK : Color.TRANSPARENT);
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
