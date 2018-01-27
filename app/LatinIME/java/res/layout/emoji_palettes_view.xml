@@ -32,12 +32,13 @@
         android:layout_height="@dimen/config_suggestions_strip_height"
         style="?attr/suggestionStripViewStyle"
     >
+
         <TabHost
             android:id="@+id/emoji_category_tabhost"
             android:layout_width="0dip"
             android:layout_weight="87.5"
             android:layout_height="match_parent"
-        >
+            >
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
@@ -47,7 +48,7 @@
                 android:id="@android:id/tabcontent"
                 android:layout_width="0dip"
                 android:layout_height="0dip"
-            >
+                >
                 <!-- Empty placeholder that TabHost requires. But we don't use it to actually
                      display anything. We monitor the tab changes and change the ViewPager.
                      Similarly the ViewPager swipes are intercepted and passed to the TabHost. -->
@@ -58,6 +59,7 @@
                     android:visibility="gone" />
             </FrameLayout>
         </TabHost>
+
         <include layout="@layout/suggestion_divider" />
         <!-- TODO: Implement KeyView and replace this. -->
         <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
@@ -71,14 +73,13 @@
             android:soundEffectsEnabled="false"
             android:contentDescription="@string/spoken_description_delete" />
     </LinearLayout>
-    <android.support.v4.view.ViewPager
-        android:id="@+id/emoji_keyboard_pager"
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <io.makerforce.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
-        android:id="@+id/emoji_category_page_id_view"
-        android:layout_width="match_parent"
-        android:layout_height="2dip" />
+        android:layout_height="200dp"
+        android:id="@+id/emoji_camera_preview">
+
+    </FrameLayout>
     <LinearLayout
         android:id="@+id/emoji_action_bar"
         android:orientation="horizontal"
