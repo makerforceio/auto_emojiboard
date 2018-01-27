@@ -60,5 +60,6 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:contentDescription="@string/spoken_description_mic"
+        android:visibility="gone"
         style="?attr/suggestionWordStyle" />
 </merge>

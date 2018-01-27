@@ -1,15 +1,33 @@
 import numpy as np
 import cv2
 import time
+import socket
 import requests
+import operator
 import threading
 import facialemotions as emo
 from threading import Thread, Event, ThreadError
 
+
+emojis = {
+  'anger': b'\xF0\x9F\x98\xA0,\xF0\x9F\x98\xA1',
+  'contempt': b'\xF0\x9F\x98\x8C',
+  'disgust': b'\xF0\x9F\x98\x96',
+  'fear': b'\xF0\x9F\x98\xA8,\xF0\x9F\x98\xB1',
+  'happiness': b'\xF0\x9F\x98\x84,\xF0\x9F\x98\x83',
+  'neutral': b'\xF0\x9F\x98\x91',
+  'sadness': b'\xF0\x9F\x98\x94,\xF0\x9F\x98\xA2',
+  'surprise': b'\xF0\x9F\x98\xB1,\xF0\x9F\x98\xB2'
+}
+
+
 class Cam():
 
-  def __init__(self, url):
+  def __init__(self, ip):
+    url = 'http://' + ip + ':8080/video'
     self.stream = requests.get(url, stream=True)
+    self.publish = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    self.publish.connect((ip, 8081))
     self.last_image = None
     self.thread_cancelled = False
     self.thread = Thread(target=self.run)
@@ -53,6 +71,14 @@ class Cam():
         self.last_emotion = emo.extract_emotion(img_face)
 
         print(self.last_emotion)
+        if isinstance(self.last_emotion, dict):
+          if 'error' in self.last_emotion:
+            continue
+          utf = []
+          for key, value in sorted(self.last_emotion.items(), key=operator.itemgetter(1)):
+            utf.insert(0, emojis[key])
+          ls = b','.join(utf) + b'\n'
+          self.publish.send(ls)
       except ThreadError:
         self.thread_cancelled = True
 
@@ -67,6 +93,6 @@ class Cam():
 
 
 if __name__ == "__main__":
-  url = 'http://172.17.57.22:8080/video'
-  cam = Cam(url)
+  ip = '172.17.57.22'
+  cam = Cam(ip)
   cam.start()

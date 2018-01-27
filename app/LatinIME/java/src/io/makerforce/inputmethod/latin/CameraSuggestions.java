@@ -50,6 +50,30 @@ public class CameraSuggestions implements Runnable {
                 Dictionary.DICTIONARY_HARDCODED,
                 SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
                 SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
+        suggestions.add(new SuggestedWords.SuggestedWordInfo(
+                "😈",
+                "",
+                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
+                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
+                Dictionary.DICTIONARY_HARDCODED,
+                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
+                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
+        suggestions.add(new SuggestedWords.SuggestedWordInfo(
+                "😖",
+                "",
+                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
+                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
+                Dictionary.DICTIONARY_HARDCODED,
+                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
+                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
+        suggestions.add(new SuggestedWords.SuggestedWordInfo(
+                "😏",
+                "",
+                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
+                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
+                Dictionary.DICTIONARY_HARDCODED,
+                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
+                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
         suggestedWords = new SuggestedWords(
                 suggestions,
                 null,
