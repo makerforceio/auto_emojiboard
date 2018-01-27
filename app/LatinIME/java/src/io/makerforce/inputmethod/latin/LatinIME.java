@@ -17,6 +17,7 @@
 package io.makerforce.inputmethod.latin;
 
 import android.Manifest.permission;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -594,13 +595,22 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         // Update suggestions occasionally
         ScheduledExecutorService sched = Executors.newScheduledThreadPool(1);;
         sched.scheduleWithFixedDelay(new CameraSuggestionsUpdater(), 1, 1, TimeUnit.SECONDS);
+        Log.d("AUTO", "Scheduled");
     }
 
     class CameraSuggestionsUpdater implements Runnable {
         @Override
         public void run() {
-            if (mSettings.getCurrent() != null) {
-                setNeutralSuggestionStrip();
+            try {
+                Log.d("AUTO", "Update");
+                mSuggestionStripView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        setNeutralSuggestionStrip();
+                    }
+                });
+            } catch (Exception e) {
+                Log.d("AUTO", e.toString());
             }
         }
     }
