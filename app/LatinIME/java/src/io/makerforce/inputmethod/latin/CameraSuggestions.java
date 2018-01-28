@@ -31,6 +31,8 @@ import android.view.Surface;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import com.vdurmont.emoji.EmojiParser;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -53,7 +55,9 @@ import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static android.support.v4.app.ActivityCompat.shouldShowRequestPermissionRationale;
 import static io.makerforce.inputmethod.latin.permissions.PermissionsUtil.requestPermissions;
@@ -63,7 +67,20 @@ import static java.security.AccessController.getContext;
  * Created by ambrose on 27/1/18.
  */
 
-public class CameraSuggestions implements Runnable {
+public class CameraSuggestions {
+
+    private static final Map<String, String> emojis;
+    static {
+        emojis = new HashMap<>();
+        emojis.put("angry", EmojiParser.parseToUnicode(":angry:,:rage:,:face_with_symbols_over_mouth:,:triumph:"));
+//        emojis.put("contempt", "\uF09F\u988C");
+//        emojis.put("disgust", "\uF09F\u9896");
+        emojis.put("fear", EmojiParser.parseToUnicode(":cold_sweat:,:fearful:,:scream:,:flushed:"));
+        emojis.put("happy", EmojiParser.parseToUnicode(":smile:,:joy:,:laughing:,:grin:,:slight_smile:"));
+        emojis.put("neutral", EmojiParser.parseToUnicode(":upside_down:,:confused:,:smirk:,:neutral_face:,:expressionless:"));
+        emojis.put("sad", EmojiParser.parseToUnicode(":pensive:,:confused:,:unamused:,:worried:,:confounded:,:perservere:"));
+        emojis.put("surprise", EmojiParser.parseToUnicode(":astonished:,:open_mouth:,:hushed:,:scream:,:flushed:"));
+    }
 
     private final ArrayList<SuggestedWords.SuggestedWordInfo> suggestions;
     public SuggestedWords suggestedWords = null;
@@ -86,20 +103,31 @@ public class CameraSuggestions implements Runnable {
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private Handler mBackgroundHandler;
     private HandlerThread mBackgroundThread;
+    private boolean isEnabled = true;
+
     private final CameraDevice.StateCallback stateCallback = new CameraDevice.StateCallback() {
         @Override
         public void onOpened(CameraDevice camera) {
             cameraDevice = camera;
-            takePictureLoop();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    takePictureLoop();
+                }
+            }).start();
         }
         @Override
         public void onDisconnected(CameraDevice camera) {
             cameraDevice.close();
+            isEnabled = false;
         }
         @Override
         public void onError(CameraDevice camera, int error) {
-            cameraDevice.close();
+            if (cameraDevice != null) {
+                cameraDevice.close();
+            }
             cameraDevice = null;
+            isEnabled = false;
         }
     };
     private InputMethodService activity;
@@ -143,14 +171,16 @@ public class CameraSuggestions implements Runnable {
             int height = 480;
             ImageReader reader = ImageReader.newInstance(width, height, ImageFormat.JPEG, 1);
             final CaptureRequest.Builder captureBuilder = cameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_RECORD);
+            if (!reader.getSurface().isValid()) {
+                takePictureLoop();
+            }
             captureBuilder.addTarget(reader.getSurface());
             captureBuilder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO);
             // Orientation
             captureBuilder.set(CaptureRequest.JPEG_ORIENTATION, 270);
-            captureBuilder.set(CaptureRequest.JPEG_QUALITY, (byte)75);
-            captureBuilder.set(CaptureRequest.CONTROL_AE_EXPOSURE_COMPENSATION, 4);
+            captureBuilder.set(CaptureRequest.JPEG_QUALITY, (byte)70);
+            captureBuilder.set(CaptureRequest.CONTROL_AE_EXPOSURE_COMPENSATION, 1);
 
-            Log.d("AUTO", "hhhhh");
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
                 public void onImageAvailable(ImageReader reader) {
@@ -161,8 +191,9 @@ public class CameraSuggestions implements Runnable {
                         byte[] bytes = new byte[buffer.capacity()];
                         buffer.get(bytes);
 
-                        Log.d("AUTO", "doing post");
                         sendImage(bytes);
+                    } catch (Exception e) {
+                        Log.e("AUTO", e.toString());
                     } finally {
                         if (image != null) {
                             image.close();
@@ -178,7 +209,7 @@ public class CameraSuggestions implements Runnable {
                     //Toast.makeText(activity, "1 Saved", Toast.LENGTH_SHORT).show();
                 }
             };
-            ArrayList<Surface> sfc = new ArrayList<Surface>();
+            ArrayList<Surface> sfc = new ArrayList<>();
             sfc.add(reader.getSurface());
             cameraDevice.createCaptureSession(sfc, new CameraCaptureSession.StateCallback() {
                 @Override
@@ -186,15 +217,18 @@ public class CameraSuggestions implements Runnable {
                     try {
                         session.capture(captureBuilder.build(), captureListener, mBackgroundHandler);
                     } catch (CameraAccessException e) {
-                        e.printStackTrace();
+                        Log.e("AUTO", e.toString());
                     }
                 }
                 @Override
                 public void onConfigureFailed(CameraCaptureSession session) {
+                    Log.e("AUTO", session.toString());
                 }
             }, mBackgroundHandler);
         } catch (CameraAccessException e) {
             e.printStackTrace();
+            Log.e("AUTO", e.toString());
+
         }
     }
 
@@ -253,6 +287,22 @@ public class CameraSuggestions implements Runnable {
 //            JSONArray face = out.getJSONArray(0);
 //            face.get(0);
 
+            if (emojis.containsKey(result)) {
+                String line = emojis.get(result);
+                String[] chars = line.split(",");
+                suggestions.clear();
+                for (String c : chars) {
+                    suggestions.add(new SuggestedWords.SuggestedWordInfo(
+                            c,
+                            "",
+                            SuggestedWords.SuggestedWordInfo.MAX_SCORE,
+                            SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
+                            Dictionary.DICTIONARY_HARDCODED,
+                            SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
+                            SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
+                }
+            }
+
             takePictureLoop();
         }catch (Exception e) {
             Log.e("AUTO", e.toString());
@@ -284,6 +334,21 @@ public class CameraSuggestions implements Runnable {
         this.activity = activity;
         startBackgroundThread();
         openCamera();
+    }
+
+    public void cont() {
+//        Log.d("AUTO", "Continue");
+//        isEnabled = true;
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                takePictureLoop();
+//            }
+//        }).start();
+    }
+    public void halt() {
+//        Log.d("AUTO", "Halt");
+//        isEnabled = false;
     }
 
     CameraSuggestions() {
@@ -345,48 +410,6 @@ public class CameraSuggestions implements Runnable {
                 false,
                 SuggestedWords.INPUT_STYLE_NONE,
                 SuggestedWords.NOT_A_SEQUENCE_NUMBER);
-        new Thread(this).start();
-    }
-
-    @Override
-    public void run() {
-        try {
-            mServerSocket = new ServerSocket(8081);
-            Log.d("AUTO", "Listening on 8081...");
-            while (true) {
-                Socket socket = mServerSocket.accept();
-                handle(socket);
-                socket.close();
-            }
-        } catch (SocketException e) {
-            // The server was stopped; ignore.
-        } catch (IOException e) {
-            Log.e("AUTO", "Web server error.", e);
-        }
-    }
-
-    private void handle(Socket socket) {
-        BufferedReader reader;
-        try {
-            reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String line;
-            while (!TextUtils.isEmpty(line = reader.readLine())) {
-                String[] chars = line.split(",");
-                suggestions.clear();
-                for (String c : chars) {
-                    suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                            c,
-                            "",
-                            SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                            SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                            Dictionary.DICTIONARY_HARDCODED,
-                            SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                            SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
 }
