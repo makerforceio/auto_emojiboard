@@ -891,7 +891,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             return;
         }
         mHandler.postSwitchLanguage(newSubtype);
-        mCameraSuggestions.cont();
     }
 
     @SuppressWarnings("deprecation")
@@ -1069,7 +1068,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     public void onWindowShown() {
         super.onWindowShown();
         setNavigationBarVisibility(isInputViewShown());
-        mCameraSuggestions.cont();
     }
 
     @Override
@@ -1178,7 +1176,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             mOptionsDialog = null;
         }
         super.hideWindow();
-        mCameraSuggestions.halt();
     }
 
     @Override
@@ -1272,7 +1269,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     public void stopShowingInputView() {
         showWindow(false /* showInput */);
-        mCameraSuggestions.halt();
     }
 
     @Override
