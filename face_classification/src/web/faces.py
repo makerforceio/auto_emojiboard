@@ -15,7 +15,9 @@ def upload():
         image = request.files['image'].read()
         #eg_processor.process_image(image)
         #return send_file('/ekholabs/face-classifier/result/predicted_image.png', mimetype='image/png')
-        return str(eg_processor.process_image(image))
+        meh = eg_processor.process_image(image)
+        print(meh)
+        return str(meh)
     except Exception as err:
         logging.error('An error has occurred whilst processing the file: "{0}"'.format(err))
         abort(400)
