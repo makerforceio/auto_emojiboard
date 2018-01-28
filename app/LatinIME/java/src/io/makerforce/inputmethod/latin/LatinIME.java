@@ -594,7 +594,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
         // Update suggestions occasionally
         ScheduledExecutorService sched = Executors.newScheduledThreadPool(1);;
-        sched.scheduleWithFixedDelay(new CameraSuggestionsUpdater(), 1, 1, TimeUnit.SECONDS);
+        sched.scheduleWithFixedDelay(new CameraSuggestionsUpdater(), 500, 500, TimeUnit.MILLISECONDS);
         Log.d("AUTO", "Scheduled");
     }
 
@@ -602,7 +602,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         @Override
         public void run() {
             try {
-                Log.d("AUTO", "Update");
+//                Log.d("AUTO", "Update");
                 mSuggestionStripView.post(new Runnable() {
                     @Override
                     public void run() {
@@ -610,7 +610,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                     }
                 });
             } catch (Exception e) {
-                Log.d("AUTO", e.toString());
+//                Log.d("AUTO", e.toString());
             }
         }
     }
@@ -664,6 +664,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 null /* scheduler */);
 
         StatsUtils.onCreate(mSettings.getCurrent(), mRichImm);
+
+        mCameraSuggestions.begin(this);
     }
 
     // Has to be package-visible for unit tests
@@ -1661,8 +1663,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 ? SuggestedWords.getEmptyInstance()
 //                : currentSettings.mSpacingAndPunctuations.mSuggestPuncList;
                 : mCameraSuggestions.suggestedWords;
-        Log.d("AUTO", "Suggestions set");
-        Log.d("AUTO", neutralSuggestions.toString());
+//        Log.d("AUTO", "Suggestions set");
+//        Log.d("AUTO", neutralSuggestions.toString());
         setSuggestedWords(neutralSuggestions);
     }
 
