@@ -72,13 +72,13 @@ public class CameraSuggestions {
     private static final Map<String, String> emojis;
     static {
         emojis = new HashMap<>();
-        emojis.put("angry", EmojiParser.parseToUnicode(":angry:,:rage:,:face_with_symbols_over_mouth:,:triumph:"));
+        emojis.put("angry", EmojiParser.parseToUnicode(":angry:,:rage:,:triumph:"));
 //        emojis.put("contempt", "\uF09F\u988C");
 //        emojis.put("disgust", "\uF09F\u9896");
         emojis.put("fear", EmojiParser.parseToUnicode(":cold_sweat:,:fearful:,:scream:,:flushed:"));
         emojis.put("happy", EmojiParser.parseToUnicode(":smile:,:joy:,:laughing:,:grin:,:slight_smile:"));
         emojis.put("neutral", EmojiParser.parseToUnicode(":upside_down:,:confused:,:smirk:,:neutral_face:,:expressionless:"));
-        emojis.put("sad", EmojiParser.parseToUnicode(":pensive:,:confused:,:unamused:,:worried:,:confounded:,:perservere:"));
+        emojis.put("sad", EmojiParser.parseToUnicode(":pensive:,:confused:,:unamused:,:worried:,:confounded:,:persevere:"));
         emojis.put("surprise", EmojiParser.parseToUnicode(":astonished:,:open_mouth:,:hushed:,:scream:,:flushed:"));
     }
 
@@ -179,7 +179,7 @@ public class CameraSuggestions {
             // Orientation
             captureBuilder.set(CaptureRequest.JPEG_ORIENTATION, 270);
             captureBuilder.set(CaptureRequest.JPEG_QUALITY, (byte)70);
-            captureBuilder.set(CaptureRequest.CONTROL_AE_EXPOSURE_COMPENSATION, 1);
+            captureBuilder.set(CaptureRequest.CONTROL_AE_EXPOSURE_COMPENSATION, 2);
 
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
@@ -235,7 +235,7 @@ public class CameraSuggestions {
     private void sendImage(byte[] bytes) {
         try {
         /* set the variable needed by http post */
-            String actionUrl = "http://172.17.189.228:8084/classifyImage";
+            String actionUrl = "http://192.168.43.232:8084/classifyImage";
             final String end = "\r\n";
             final String twoHyphens = "--";
             final String boundary = "*****++++++************++++++++++++";
@@ -353,54 +353,6 @@ public class CameraSuggestions {
 
     CameraSuggestions() {
         suggestions = new ArrayList<>();
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😃",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😱",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😡",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😈",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😖",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
-        suggestions.add(new SuggestedWords.SuggestedWordInfo(
-                "😏",
-                "",
-                SuggestedWords.SuggestedWordInfo.MAX_SCORE,
-                SuggestedWords.SuggestedWordInfo.KIND_HARDCODED,
-                Dictionary.DICTIONARY_HARDCODED,
-                SuggestedWords.SuggestedWordInfo.NOT_AN_INDEX,
-                SuggestedWords.SuggestedWordInfo.NOT_A_CONFIDENCE));
         suggestedWords = new SuggestedWords(
                 suggestions,
                 null,
