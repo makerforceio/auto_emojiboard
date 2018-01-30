@@ -6,7 +6,7 @@ The recent launch of the iPhoneX brought with it the "indispensable" tool called
 
 We from Team Makerforce, wanted to create something that allows Android users to use emojis more expressively and easily with lesser browsing through never ending lists of smiley, winky and sad faces. We believe that such a tool would enable more Android users to express themselves with ease while also proving to be more useful than Animoji as a platform for easy sharing of emotions. And this is why we created EmojiBoard, the world's first Android keyboard with machine learning and emotion recognition built in.
 
-Solarized dark             |  Solarized Ocean    
+Keyboard View              |  Settings View   
 :-------------------------:|:-------------------------:
 ![](img/keyboard.jpg)  |  ![](img/settings.jpg)
 
